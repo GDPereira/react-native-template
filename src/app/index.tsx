@@ -1,3 +1,3 @@
-import { Home } from "@screens/Home";
+import { Redirect } from "expo-router";
 
-export default Home;
+export default () => <Redirect href={"/(tabs)"} />;

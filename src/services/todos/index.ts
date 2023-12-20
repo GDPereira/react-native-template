@@ -1,4 +1,4 @@
-import { HttpGet } from "@services/https";
+import { HttpGet } from "@services/api";
 
 export const getTodos = async (id: number) => {
   try {

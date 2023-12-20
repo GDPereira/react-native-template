@@ -1,4 +1,4 @@
-import { BASE_URL } from "@constants/http";
+import { BASE_URL } from "@constants/services";
 import axios from "axios";
 
 const api = axios.create({ baseURL: BASE_URL });

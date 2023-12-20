@@ -6,7 +6,9 @@ const queryClient = new QueryClient();
 export default () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <Stack />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)" />
+      </Stack>
     </QueryClientProvider>
   );
 };

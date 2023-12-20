@@ -1,4 +1,4 @@
-import { MAX_RETRY } from "@constants/http";
+import { MAX_RETRY } from "@constants/services";
 import { getTodos } from "@services/todos";
 import { useQuery } from "@tanstack/react-query";
 import { useCounter } from "@zustand/counter/counterSlice";
