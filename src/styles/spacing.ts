@@ -1,0 +1,18 @@
+export const SPACING = {
+  min: 0.1,
+  tiny: 1,
+  xtiny: 10,
+  xxtiny: 15,
+  small: 20,
+  xsmall: 25,
+  xxsmall: 30,
+  medium: 35,
+  xmedium: 40,
+  xxmedium: 45,
+  large: 55,
+  xlarge: 60,
+  xxlarge: 65,
+  huge: 70,
+  xhuge: 75,
+  xxhuge: 80,
+};
